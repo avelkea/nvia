@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVIAAAA</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/modal.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+    <div class="contenedor">
+        
+        <class class="container">
+            <h1 class="letra-neon">¿Qué eres?</h1>
+            <p class="neon3">
+                <span class="flicker1">♣</span>
+                <span class="flicker2">♣</span>
+                <span class="flicker3">♣</span>
+            </p>
+        </class>
+        <div>
+            <img src="img/cristiano.jpg" width="30%" alt="Cristiano Ronaldo">
+            <br>
+        </div>
+            <button id="yesBtn" class="poll-button yes-button" data-open="modal1">NEGRO</button>
+
+              <div class="modal" id="modal1" data-animation="slideInOutLeft">
+                <div class="modal-dialog">
+                  <header class="modal-header">
+                    <h2>ESOOO</h2>
+                    <button class="close-modal" aria-label="close modal" data-close>
+                      ❌ 
+                    </button>
+                  </header>
+                  <section class="modal-content">
+                    <img src="img/shaq.gif" alt="GIF animado" width="300">
+                  </section>
+                  <footer class="modal-footer">
+                    <button type="button" class="open-modal bn-neon" id="yesBtn" style="align-items: center;" data-open="modal2">
+                            Presiona Guapa !!
+                    </button>
+                  </footer>
+                </div>
+              </div>
+              
+              <div class="modal" id="modal2" data-animation="mixInAnimations">
+                <div class="modal-dialog">
+                  <header class="modal-header">
+                    <h1>¿Quieres ser mi novia?
+                    </h1>
+                    <button class="close-modal" aria-label="close modal" data-close>
+                        ❌  
+                    </button>
+                  </header>
+                  <section class="modal-content">
+                    <img id="yesButton" src="img/zapaboi.jpeg" alt="Sí" class="big-button" data-open="modal3">
+            
+            <!-- Botón "No" como imagen -->
+            <img id="noButton" src="img/prohibido.jpg" alt="No" class="big-button">
+                  </section>
+  
+                </div>
+              </div>
+              <!-- Nuevo modal para la opción "Sí" -->
+<div class="modal" id="modal3" data-animation="mixInAnimations">
+  <div class="modal-dialog">
+      <header class="modal-header">
+          <h1>¡Sabía que dirías que sí! ❤️, TE AMO BONITA</h1>
+          <button class="close-modal" aria-label="close modal" data-close>❌</button>
+      </header>
+      <section class="modal-content">
+          <p>¡Ahora somos novios! Si queires puedes besar a tu novio. </p>
+      </section>
+  </div>
+</div>
+            <button id="noBtn" class="poll-button no-button">PERSONA</button>
+
+    
+    <br><br><br><br>
+
+    </div>
+    <div class="burbujas">
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+    </div>
+    <script src="src/js.js"></script>
+    <script src="src/modal.js"></script> 
+</body>
+</html>
+
